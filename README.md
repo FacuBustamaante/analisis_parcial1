@@ -29,5 +29,21 @@ Abrir y ejecutar cualquiera de los notebooks del proyecto, por ejemplo:
 - `Hito 1.ipynb`
 - `Hito 2.ipynb`
 
-Si usas VS Code, puedes abrir el archivo `.ipynb` y ejecutar las celdas desde el editor.
+## Dashboard interactivo con Streamlit
+
+El dashboard interactivo está en `Hito 4/main.py` y se levanta con Streamlit.
+
+Con el entorno virtual activado e instaladas las dependencias, ejecutar:
+
+```bash
+streamlit run "Hito 4/main.py"
+```
+
+Esto inicia un servidor local y abre la app en el navegador. Si no se abre sola, ingresar manualmente a:
+
+```
+http://localhost:8501
+```
+
+Para detener el servidor, presionar `Ctrl + C` en la terminal.
 
